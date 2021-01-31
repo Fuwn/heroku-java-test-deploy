@@ -17,6 +17,6 @@ public class HerokujavatestdeployApplication {
 
 	@GetMapping("/")
 	public String index() {
-		return "The deploy seemed to have worked...";
+		return "The deploy seems to have worked...";
 	}
 }
